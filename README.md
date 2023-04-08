@@ -19,5 +19,5 @@ A docker image to import library from 'Modern-Cryptography' repo and provide a p
 <!-- 
 3. using `docker-compose.yml`  
 ```docker run -it --rm -p 8888:8888 ghcr.io/ravi-prakash1907/modern-crypto:<version>```
-<!-- ```docker run -it --rm -p 8888:8888 raviprakash1907/modern-crypto:<version>``` -->  
+<!-- ```docker run -it --rm -p 8888:8888 raviprakash1907/modern-crypto:<version>``` 
 -->  
