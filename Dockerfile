@@ -3,6 +3,9 @@ FROM jupyter/base-notebook
 
 # author
 LABEL Ravi Prakash <raviprakash.cf>
+LABEL org.opencontainers.image.source=https://github.com/ravi-prakash1907/modern-crypto
+LABEL org.opencontainers.image.description="A docker image for hands-on cryptography with jupyter notebook."
+LABEL org.opencontainers.image.licenses=GPL
 
 # going root for installation
 USER root
