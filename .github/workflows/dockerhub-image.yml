@@ -31,4 +31,4 @@ jobs:
     - name: Push to Dockerhub
       env:
         USERNAME: ${{ secrets.DOCKER_USERNAME }}
-      run: docker push $USERNAME/modern-crypto
+      run: docker push docker.io/$USERNAME/modern-crypto
