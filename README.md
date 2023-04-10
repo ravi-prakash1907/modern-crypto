@@ -1,5 +1,7 @@
 # modern-crypto  
 
+![Docker Pulls](https://img.shields.io/docker/pulls/raviprakash1907/modern-crypto) [![Build and Push to dockerhub](https://github.com/ravi-prakash1907/modern-crypto/actions/workflows/dockerhub-image.yml/badge.svg)](https://github.com/ravi-prakash1907/modern-crypto/actions/workflows/dockerhub-image.yml) [![Build and push to github package repository](https://github.com/ravi-prakash1907/modern-crypto/actions/workflows/github-docker-image.yml/badge.svg)](https://github.com/ravi-prakash1907/modern-crypto/actions/workflows/github-docker-image.yml)
+
 A docker image to import library from 'Modern-Cryptography' repo and provide a platform for hands-on cryptography.  
 
 <!-- A sample `docker-compose.yml` file is also provided in the repo. -->  
