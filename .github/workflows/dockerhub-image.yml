@@ -29,6 +29,4 @@ jobs:
       run: docker build . --file Dockerfile --tag modern-crypto:$(date +%s) --tag modern-crypto:latest
     
     - name: Push to Dockerhub
-      env:
-        USERNAME: ${{ secrets.DOCKER_USERNAME }}
-      run: docker push docker.io/$USERNAME/modern-crypto
+      run: docker push docker.io/${{ secrets.DOCKER_USERNAME }}/modern-crypto:latest
