@@ -18,7 +18,7 @@ RUN apt-get install -y wget zip unzip build-essential \
   && apt-get install -y python3 python3-pip \
   && rm -rf /var/lib/apt/lists/*
 
-## setting arg to download updated module 
+## setting arg to download updated library 
 ARG GET_CACHED_MOD=true
 ## installing the modernCrypto library
 RUN wget https://ravi-prakash1907.github.io/Modern-Cryptography/pkgs/modernCrypto_latest.zip \
