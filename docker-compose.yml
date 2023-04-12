@@ -6,7 +6,7 @@ services:
     ports: 
       - 8888:8888
     volumes:
-      - ./src:/home/jovyan
-    environment:
-      - JUPYTER_ENABLE_LAB="true"
+      - ./src/:/home/jovyan/bkp
     restart: unless-stopped
+  mcr:
+    image: raviprakash1907/modern-crypto:latest
