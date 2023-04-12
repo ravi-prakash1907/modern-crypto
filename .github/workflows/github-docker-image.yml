@@ -21,7 +21,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ravi-prakash1907
-          password: ${{ secrets.GIT_TOKEN }}
+          password: ${{ secrets.CR_PAT }}
 
       - name: Build and Push the Docker Image
         uses: docker/build-push-action@v4
