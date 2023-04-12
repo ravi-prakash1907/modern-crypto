@@ -24,7 +24,7 @@ _\* Link to the latest `Dockerfile` [here](https://github.com/ravi-prakash1907/m
 
 ---  
 
-## What is `modern-crypto`? 🔑  
+## What is **modern-crypto**? 🔑  
 
 **`modern-crypto`** is an image built on top of the `jupyter/base-notebook` image and provides an environment for performing a range of practical hands-on implementations of _Modern Cryptography_ algorithms as covered at [this website](https://ravi-prakash1907.github.io/Modern-Cryptography/). The image comes with all the essential libraries pre-installed, including the [`modernCrypto` (📥)](https://ravi-prakash1907.github.io/Modern-Cryptography/pkgs/modernCrypto_latest.zip) module.  
 
@@ -45,7 +45,7 @@ This image can be pulled to use in a personalized container environment. To do t
 
 To access any python notebook (`.ipynb`) or script (`.py`) inside this container, it is advised to store the file in the `src/` directory, which should exist in the current location for easy access.  
 
-### Example with `Dockerfile`:  
+### Example with **Dockerfile**:  
 
 _Using the image from **Dockerhub**:_
 
