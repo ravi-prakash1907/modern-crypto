@@ -26,7 +26,7 @@ jobs:
         docker login -u $USERNAME -p $PASSWORD
 
     - name: Build the Docker Image
-      run: docker build . --file Dockerfile --tag modern-crypto:latest
+      run: docker build . --file Dockerfile --build-arg GET_CACHED_MOD=false --tag modern-crypto:latest
     
     - name: Push to Dockerhub
       run: docker tag modern-crypto:latest ${{ secrets.DOCKER_USERNAME }}/modern-crypto:latest
