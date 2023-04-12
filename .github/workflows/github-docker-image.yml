@@ -17,4 +17,7 @@ jobs:
       uses: actions/checkout@v3
     
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag modern-crypto:$(date +%s) --tag modern-crypto:latest
+      run: docker build . --file Dockerfile --tag ghcr.io/ravi-prakash1907/modern-crypto:$(date +%s) --tag ghcr.io/ravi-prakash1907/modern-crypto:latest
+    
+    - name: Push to Dockerhub
+      run: docker push ghcr.io/ravi-prakash1907/modern-crypto:latest
