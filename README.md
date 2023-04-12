@@ -129,7 +129,6 @@ Here, the `--rm` flag is set to delete the container as soon as it exists. The `
 > $ docker compose up  
 > ```  
 
-
 ---  
 
 ## Wanna Countribute? ✨  
