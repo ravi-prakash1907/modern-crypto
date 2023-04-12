@@ -18,15 +18,14 @@ jobs:
     - name: Updates Checkout
       uses: actions/checkout@v3
 
-    - name: Docker Login
-      env:
-        USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-      run: |
-        docker login -u $USERNAME -p $PASSWORD
+    - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
 
-    - name: Build the Docker Image
-      run: docker build . --file Dockerfile --build-arg GET_CACHED_MOD=false --tag modern-crypto:latest
-    
-    - name: Push to Dockerhub
-      run: docker tag modern-crypto:latest ${{ secrets.DOCKER_USERNAME }}/modern-crypto:latest
+    - name: Build and Push the Docker Image
+        uses: docker/build-push-action@v4
+        with:
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/modern-crypto:latest
