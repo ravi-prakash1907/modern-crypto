@@ -13,15 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Updates
-      uses: actions/checkout@v3
-    
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --build-arg GET_CACHED_MOD=false --tag modern-crypto:$(date +%s) --tag modern-crypto:latest
-
-
-
-    steps:
       - name: Updates Checkout
         uses: actions/checkout@v3
 
