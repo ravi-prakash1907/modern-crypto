@@ -50,7 +50,7 @@ To access any python notebook (`.ipynb`) or script (`.py`) inside this container
 _Using the image from **Dockerhub**:_
 
 ```docker
-# pulling image of base-notebook
+# pulling image of modern-crypto
 FROM raviprakash1907/modern-crypto:latest
 
 # copying files from host machine 
@@ -61,7 +61,7 @@ COPY ./src/ ./
 _Using the image from **GitHub**:_
 
 ```docker
-# pulling image of base-notebook
+# pulling image of modern-crypto
 FROM ghcr.io/ravi-prakash1907/modern-crypto:latest
 
 # copying files from host machine 
