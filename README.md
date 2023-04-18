@@ -100,7 +100,7 @@ Here, the `--rm` flag is set to delete the container as soon as it exists. The `
 >     -it \
 >     --rm \
 >     -p 8888:8888 \
->     --mount type=bind,src="$(pwd)",target=/home/jovyan \
+>     --mount type=bind,src="$(pwd)",target=/home/jovyan/bkp \
 >     raviprakash1907/modern-crypto:<tag>  
 > ```  
 
