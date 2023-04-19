@@ -20,7 +20,7 @@ RUN apt-get install -y wget zip unzip build-essential \
 
 ## setting arg to download updated library | false means overwrite cache
 ARG GET_CACHED_MOD=false
-## installing the modernCrypto library
+## installing the modernCrypto library : v7.2 (latest)
 RUN wget https://ravi-prakash1907.github.io/Modern-Cryptography/pkgs/modernCrypto_latest.zip \
   && unzip modernCrypto_latest.zip -d /home/jovyan \
   && rm modernCrypto_latest.zip \
