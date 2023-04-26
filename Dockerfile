@@ -1,5 +1,5 @@
 ##########################################
-###      Latest Version - v8.0.2       ###
+###      Latest Version - v8.1.0       ###
 ##########################################
 
 # pulling image of base-notebook
