@@ -18,7 +18,7 @@ $ docker pull raviprakash1907/modern-crypto
 ### Source of package and `Dockerfile` links:
 
 - GitHub: [`ghcr.io/ravi-prakash1907/modern-crypto`](https://github.com/ravi-prakash1907/modern-crypto/pkgs/container/modern-crypto)  
-- Dockerhub: [`raviprakash1907/modern-crypto`](https://hub.docker.com/repository/docker/raviprakash1907/modern-crypto/general)  
+- Dockerhub: [`raviprakash1907/modern-crypto`](https://hub.docker.com/r/raviprakash1907/modern-crypto)  
 
 _\* Link to the latest `Dockerfile` [here](https://github.com/ravi-prakash1907/modern-crypto/blob/main/Dockerfile)._  
 
